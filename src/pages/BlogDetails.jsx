@@ -154,7 +154,7 @@ const BlogDetails = () => {
                             <ul className="centered-row mx-auto justify-center text-muted">
                                 <li className="centered-row gap-2 me-5">
                                     <img src={author} alt="author-image" className="w-10 h-10 mx-auto rounded-full" />
-                                    <span className="text-black">Peter Bowman</span>
+                                    <span className="text-black">{blog.author || "Aura Studio"}</span>
                                     •
                                 </li>
                                 <li className="me-5 text-muted">

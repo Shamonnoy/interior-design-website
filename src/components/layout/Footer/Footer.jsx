@@ -34,9 +34,9 @@ const Footer = () => {
                         </li>
                         <li>
                             <a href="mailto:hello@aurastudio.design" className='text-muted font-light pb-2 block text-lg hover:underline transition-all duration-300 hover:text-white'>
-                                hello@aurastudio.design
+                                dummy@aurastudio.design
                             </a>
-                            <span className='text-xl tracking-tight text-white'>+91 33 2357 8000</span>
+                            <span className='text-xl tracking-tight text-white'>+91 12345 67890</span>
                         </li>
                     </ul>
                 </div>

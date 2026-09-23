@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { ChevronDown, Copyright, Dribbble, Facebook, Instagram, Twitter, X } from "lucide-react";
+import { ChevronDown, Copyright, Globe, Linkedin, Twitter, X } from "lucide-react";
 import Logo from "./Logo";
 
 const MobileMenu = ({ menuOpen, setMenuOpen, navLinks }) => {
@@ -72,24 +72,37 @@ const MobileMenu = ({ menuOpen, setMenuOpen, navLinks }) => {
             {/* Social Icons & Copyright */}
             <ul className="mx-auto flex items-center justify-center py-5 gap-3">
                 <li>
-                    <Link to="https://www.facebook.com/" aria-label="Facebook" className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300">
-                        <Facebook size={18} strokeWidth={1.5} />
-                    </Link>
+                    <a
+                        href="https://www.linkedin.com/in/shamonnoy-halder/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                        className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300"
+                    >
+                        <Linkedin size={18} strokeWidth={1.5} />
+                    </a>
                 </li>
                 <li>
-                    <Link to="https://x.com/" aria-label="Twitter" className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300">
+                    <a
+                        href="https://x.com/ShamonnoyH"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="X (Twitter)"
+                        className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300"
+                    >
                         <Twitter size={18} strokeWidth={1.5} />
-                    </Link>
+                    </a>
                 </li>
                 <li>
-                    <Link to="https://www.instagram.com/" aria-label="Instagram" className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300">
-                        <Instagram size={18} strokeWidth={1.5} />
-                    </Link>
-                </li>
-                <li>
-                    <Link to="https://dribbble.com/" aria-label="Dribbble" className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300">
-                        <Dribbble size={18} strokeWidth={1.5} />
-                    </Link>
+                    <a
+                        href="https://shamonnoy.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Portfolio"
+                        className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300"
+                    >
+                        <Globe size={18} strokeWidth={1.5} />
+                    </a>
                 </li>
             </ul>
 

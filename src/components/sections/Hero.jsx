@@ -12,7 +12,7 @@ import slide2 from "/images/Index/Hero/main-slider-02.jpg";
 import slide3 from "/images/Index/Hero/main-slider-03.jpg";
 
 import MainBtn from '../ui/Buttons/MainBtn';
-import { Facebook, Instagram, Twitter, Youtube, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Linkedin, Twitter, Globe, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Hero = () => {
 
@@ -107,23 +107,36 @@ const Hero = () => {
             {/* Social Icons */}
             <ul className="social-icons text-white absolute right-14 bottom-8 space-x-4 flex z-1 items-center">
                 <li>
-                    <a href="https://www.facebook.com/" aria-label="Facebook" className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300">
-                        <Facebook size={16} strokeWidth={1.5} />
+                    <a
+                        href="https://www.linkedin.com/in/shamonnoy-halder/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                        className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300"
+                    >
+                        <Linkedin size={16} strokeWidth={1.5} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://x.com/" aria-label="Twitter" className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300">
+                    <a
+                        href="https://x.com/ShamonnoyH"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="X (Twitter)"
+                        className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300"
+                    >
                         <Twitter size={16} strokeWidth={1.5} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/" aria-label="Instagram" className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300">
-                        <Instagram size={16} strokeWidth={1.5} />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" aria-label="Youtube" className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300">
-                        <Youtube size={16} strokeWidth={1.5} />
+                    <a
+                        href="https://shamonnoy.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Portfolio"
+                        className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300"
+                    >
+                        <Globe size={16} strokeWidth={1.5} />
                     </a>
                 </li>
             </ul>

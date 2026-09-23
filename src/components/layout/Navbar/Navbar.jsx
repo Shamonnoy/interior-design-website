@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import Logo from './Logo'
-import { ChevronDown, Copyright, Dribbble, Facebook, Instagram, ShoppingBag, TextAlignJustify, Twitter, User, X } from 'lucide-react'
+import { ShoppingBag, TextAlignJustify, User } from 'lucide-react'
 import NavMenu from './NavMenu'
 import NavDropdown from "./NavDropdown"
 import MobileMenu from './MobileMenu'

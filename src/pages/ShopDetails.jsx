@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link, useParams } from "react-router-dom";
 import ProductData from "../assets/Data/ProductData.json";
-import { Facebook, Instagram, Minus, Plus, Twitter } from "lucide-react";
+import { Globe, Linkedin, Minus, Plus, Twitter } from "lucide-react";
 import MainBtn from "../components/ui/Buttons/MainBtn";
 
 import Zoom from "react-medium-image-zoom";
@@ -247,17 +247,35 @@ const ShopDetails = () => {
                                 <span>Chair, Color, Decor, Design, Light, Wood</span>
                             </li>
                             <li className="centered-row">
-                                <span className="font-medium">Share : </span>
+                                <span className="font-medium">Connect : </span>
                                 <p className="centered-row space-x-3">
-                                    <Link to="https://www.facebook.com/" className="cursor-pointer">
-                                        <Facebook size={22} />
-                                    </Link>
-                                    <Link to="https://x.com/" className="cursor-pointer">
-                                        <Twitter size={22} />
-                                    </Link>
-                                    <Link to="https://www.instagram.com/" className="cursor-pointer">
-                                        <Instagram size={22} />
-                                    </Link>
+                                    <a
+                                        href="https://www.linkedin.com/in/shamonnoy-halder/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="cursor-pointer text-gray-700 hover:text-black transition"
+                                        aria-label="LinkedIn"
+                                    >
+                                        <Linkedin size={20} strokeWidth={1.5} />
+                                    </a>
+                                    <a
+                                        href="https://x.com/ShamonnoyH"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="cursor-pointer text-gray-700 hover:text-black transition"
+                                        aria-label="X (Twitter)"
+                                    >
+                                        <Twitter size={20} strokeWidth={1.5} />
+                                    </a>
+                                    <a
+                                        href="https://shamonnoy.vercel.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="cursor-pointer text-gray-700 hover:text-black transition"
+                                        aria-label="Portfolio"
+                                    >
+                                        <Globe size={20} strokeWidth={1.5} />
+                                    </a>
                                 </p>
                             </li>
                         </ul>

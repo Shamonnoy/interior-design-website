@@ -72,23 +72,23 @@ const MobileMenu = ({ menuOpen, setMenuOpen, navLinks }) => {
             {/* Social Icons & Copyright */}
             <ul className="mx-auto flex items-center justify-center py-5 gap-3">
                 <li>
-                    <Link to="/" className="p-3 rounded-full bg-linear-to-r from-blue-500 to-blue-700 transition-all duration-300 rotate-hover inline-block">
-                        <Facebook className="text-white" size={20} />
+                    <Link to="https://www.facebook.com/" aria-label="Facebook" className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300">
+                        <Facebook size={18} strokeWidth={1.5} />
                     </Link>
                 </li>
                 <li>
-                    <Link to="/" className="p-3 rounded-full bg-linear-to-r from-sky-400 to-blue-600 transition-all duration-300 rotate-hover inline-block">
-                        <Twitter className="text-white" size={20} />
+                    <Link to="https://x.com/" aria-label="Twitter" className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300">
+                        <Twitter size={18} strokeWidth={1.5} />
                     </Link>
                 </li>
                 <li>
-                    <Link to="/" className="p-3 rounded-full bg-linear-to-r from-pink-500 via-red-500 to-yellow-500 transition-all duration-300 rotate-hover inline-block">
-                        <Instagram className="text-white" size={20} />
+                    <Link to="https://www.instagram.com/" aria-label="Instagram" className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300">
+                        <Instagram size={18} strokeWidth={1.5} />
                     </Link>
                 </li>
                 <li>
-                    <Link to="/" className="p-3 rounded-full bg-linear-to-r from-purple-500 to-pink-500 transition-all duration-300 rotate-hover inline-block">
-                        <Dribbble className="text-white" size={20} />
+                    <Link to="https://dribbble.com/" aria-label="Dribbble" className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-gray-300 hover:bg-white hover:text-black transition-all duration-300">
+                        <Dribbble size={18} strokeWidth={1.5} />
                     </Link>
                 </li>
             </ul>

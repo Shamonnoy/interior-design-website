@@ -23,26 +23,30 @@ const ProductCard = ({ product }) => {
                         className="section-image"
                     />
                 </Link>
-                <ul className="absolute top-[44%] left-[26%] w-fit h-fit space-x-3 product-icons z-4 flex justify-center items-center">
-
+                <ul className="absolute inset-0 flex justify-center items-center gap-2 product-icons z-4 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <li
                         onClick={toggleWishlist}
-                        className="cursor-pointer bg-white p-2 rounded-full shadow"
+                        aria-label="Wishlist"
+                        className="cursor-pointer pointer-events-auto bg-white hover:bg-black hover:text-white p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 flex items-center justify-center text-heading"
                     >
-                        {liked ? (
-                            <Icon icon="mdi:heart" className="text-red-500" width="24" />
-                        ) : (
-                            <Icon icon="mdi:heart-outline" width="24" />
-                        )}
+                        <Heart size={18} strokeWidth={1.5} className={liked ? "fill-red-500 text-red-500" : ""} />
                     </li>
 
-                    <li onClick={() => addToCart(product)}
-                        className="cursor-pointer bg-white p-2 rounded-full shadow">
-                        <ShoppingCart />
+                    <li 
+                        onClick={() => addToCart(product)}
+                        aria-label="Add to cart"
+                        className="cursor-pointer pointer-events-auto bg-white hover:bg-black hover:text-white p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 flex items-center justify-center text-heading"
+                    >
+                        <ShoppingCart size={18} strokeWidth={1.5} />
                     </li>
+
                     <li>
-                        <Link to={`/product/${product.id}`}>
-                            <MoveRight />
+                        <Link 
+                            to={`/product/${product.id}`}
+                            aria-label="View details"
+                            className="cursor-pointer pointer-events-auto bg-white hover:bg-black hover:text-white p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 flex items-center justify-center text-heading"
+                        >
+                            <MoveRight size={18} strokeWidth={1.5} />
                         </Link>
                     </li>
                 </ul>

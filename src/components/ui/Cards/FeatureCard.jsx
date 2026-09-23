@@ -17,7 +17,9 @@ const FeatureCard = ({ image, Icon, title, description }) => {
             {/* Content */}
             <div className="text-white relative z-1 px-5 text-center transform translate-y-12 group-hover:translate-y-0 transition-all duration-500">
 
-                <Icon size={60} className="mx-auto mb-4" />
+                <div className="w-14 h-14 mx-auto mb-4 rounded-full border border-white/25 bg-white/10 backdrop-blur-xs flex items-center justify-center text-white">
+                    <Icon size={26} strokeWidth={1.25} />
+                </div>
 
                 <h5 className="mb-3 text-2xl font-semibold">
                     {title}

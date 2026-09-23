@@ -99,32 +99,40 @@ const Blogs = () => {
                         ref={featureRef}
                         className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-14 py-16"
                     >
-                        <div className="item centered-row gap-3 lg:px-8">
-                            <Gift size={44} className="text-coffee" />
+                        <div className="item centered-row gap-4 lg:px-4">
+                            <div className="w-12 h-12 rounded-xl bg-white border border-stone-200/80 shadow-xs flex items-center justify-center shrink-0 text-coffee">
+                                <Gift size={24} strokeWidth={1.25} />
+                            </div>
                             <div className="content">
-                                <h4 className="text-lg font-semibold text-heading">Bespoke Concierge</h4>
-                                <span className="text-gray-500 text-sm">Personalized styling support</span>
+                                <h4 className="text-base font-semibold text-heading">Bespoke Concierge</h4>
+                                <span className="text-gray-500 text-xs">Personalized styling support</span>
                             </div>
                         </div>
-                        <div className="item centered-row gap-3 lg:px-8">
-                            <Percent size={44} className="text-coffee" />
+                        <div className="item centered-row gap-4 lg:px-4">
+                            <div className="w-12 h-12 rounded-xl bg-white border border-stone-200/80 shadow-xs flex items-center justify-center shrink-0 text-coffee">
+                                <Percent size={24} strokeWidth={1.25} />
+                            </div>
                             <div className="content">
-                                <h4 className="text-lg font-semibold text-heading">Trade Partnerships</h4>
-                                <span className="text-gray-500 text-sm">Exclusive architect privileges</span>
+                                <h4 className="text-base font-semibold text-heading">Trade Partnerships</h4>
+                                <span className="text-gray-500 text-xs">Exclusive architect privileges</span>
                             </div>
                         </div>
-                        <div className="item centered-row gap-3 lg:px-8">
-                            <ShoppingBag size={44} className="text-coffee" />
+                        <div className="item centered-row gap-4 lg:px-4">
+                            <div className="w-12 h-12 rounded-xl bg-white border border-stone-200/80 shadow-xs flex items-center justify-center shrink-0 text-coffee">
+                                <ShoppingBag size={24} strokeWidth={1.25} />
+                            </div>
                             <div className="content">
-                                <h4 className="text-lg font-semibold text-heading">White-Glove Delivery</h4>
-                                <span className="text-gray-500 text-sm">Insured global freight</span>
+                                <h4 className="text-base font-semibold text-heading">White-Glove Delivery</h4>
+                                <span className="text-gray-500 text-xs">Insured freight & setup</span>
                             </div>
                         </div>
-                        <div className="item centered-row gap-3 lg:px-8">
-                            <WalletMinimal size={44} className="text-coffee" />
+                        <div className="item centered-row gap-4 lg:px-4">
+                            <div className="w-12 h-12 rounded-xl bg-white border border-stone-200/80 shadow-xs flex items-center justify-center shrink-0 text-coffee">
+                                <WalletMinimal size={24} strokeWidth={1.25} />
+                            </div>
                             <div className="content">
-                                <h4 className="text-lg font-semibold text-heading">Lifetime Integrity</h4>
-                                <span className="text-gray-500 text-sm">Guaranteed artisanal build</span>
+                                <h4 className="text-base font-semibold text-heading">Lifetime Integrity</h4>
+                                <span className="text-gray-500 text-xs">Guaranteed artisanal build</span>
                             </div>
                         </div>
                     </div>

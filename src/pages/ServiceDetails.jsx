@@ -244,31 +244,31 @@ const ServiceDetails = () => {
                             <ul className="space-y-6 max-w-md">
 
                                 <li className="flex items-start gap-4 group contact-item">
-                                    <div className="p-3 rounded-full bg-linear-to-r from-purple-500 to-pink-500 text-white transition-transform duration-300 group-hover:scale-110">
-                                        <MapPin size={20} />
+                                    <div className="w-10 h-10 rounded-full border border-stone-300 bg-light-yellow text-heading flex items-center justify-center transition-transform duration-300 group-hover:bg-primary group-hover:text-white group-hover:border-primary">
+                                        <MapPin size={18} strokeWidth={1.5} />
                                     </div>
 
-                                    <p className="text-gray-700 leading-relaxed">
-                                        <span className="font-semibold block">Kolkata Studio</span>
+                                    <p className="text-gray-700 leading-relaxed text-sm">
+                                        <span className="font-semibold block text-base text-heading">Kolkata Studio</span>
                                         Sector V, Salt Lake City <br />
                                         Kolkata, West Bengal 700091
                                     </p>
                                 </li>
 
                                 <li className="flex items-center gap-4 group contact-item">
-                                    <div className="p-3 rounded-full bg-linear-to-r from-blue-500 to-cyan-500 text-white transition-transform duration-300 group-hover:scale-110">
-                                        <Mail size={20} />
+                                    <div className="w-10 h-10 rounded-full border border-stone-300 bg-light-yellow text-heading flex items-center justify-center transition-transform duration-300 group-hover:bg-primary group-hover:text-white group-hover:border-primary">
+                                        <Mail size={18} strokeWidth={1.5} />
                                     </div>
 
-                                    <p className="text-gray-700">contact@aurastudio.design</p>
+                                    <p className="text-gray-700 text-sm">contact@aurastudio.design</p>
                                 </li>
 
                                 <li className="flex items-center gap-4 group contact-item">
-                                    <div className="p-3 rounded-full bg-linear-to-r from-orange-500 to-red-500 text-white transition-transform duration-300 group-hover:scale-110">
-                                        <Phone size={20} />
+                                    <div className="w-10 h-10 rounded-full border border-stone-300 bg-light-yellow text-heading flex items-center justify-center transition-transform duration-300 group-hover:bg-primary group-hover:text-white group-hover:border-primary">
+                                        <Phone size={18} strokeWidth={1.5} />
                                     </div>
 
-                                    <p className="text-gray-700">+91 33 2357 8000</p>
+                                    <p className="text-gray-700 text-sm">+91 33 2357 8000</p>
                                 </li>
                             </ul>
                         </div>

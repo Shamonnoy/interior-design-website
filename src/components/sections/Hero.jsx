@@ -96,34 +96,34 @@ const Hero = () => {
 
             </Swiper>
 
-            <button className="hero-prev absolute left-6 top-1/2 -translate-y-1/2 bg-white/20 backdrop-blur-md p-3 rounded-full text-white hover:bg-white hover:text-black transition">
-                <ChevronLeft size={30} />
+            <button aria-label="Previous slide" className="hero-prev absolute left-6 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/10 backdrop-blur-md rounded-full text-white border border-white/20 hover:bg-white hover:text-black transition duration-300 cursor-pointer">
+                <ChevronLeft size={22} strokeWidth={1.5} />
             </button>
 
-            <button className="hero-next absolute right-6 top-1/2 -translate-y-1/2 bg-white/20 backdrop-blur-md p-3 rounded-full text-white hover:bg-white hover:text-black transition">
-                <ChevronRight size={30} />
+            <button aria-label="Next slide" className="hero-next absolute right-6 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/10 backdrop-blur-md rounded-full text-white border border-white/20 hover:bg-white hover:text-black transition duration-300 cursor-pointer">
+                <ChevronRight size={22} strokeWidth={1.5} />
             </button>
 
             {/* Social Icons */}
-            <ul className="social-icons text-white absolute right-14 bottom-8 space-x-5 flex z-1">
+            <ul className="social-icons text-white absolute right-14 bottom-8 space-x-4 flex z-1 items-center">
                 <li>
-                    <a href="https://www.facebook.com/">
-                        <Facebook className='social-icon' />
+                    <a href="https://www.facebook.com/" aria-label="Facebook" className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300">
+                        <Facebook size={16} strokeWidth={1.5} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://x.com/">
-                        <Twitter className='social-icon' />
+                    <a href="https://x.com/" aria-label="Twitter" className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300">
+                        <Twitter size={16} strokeWidth={1.5} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/">
-                        <Instagram className='social-icon' />
+                    <a href="https://www.instagram.com/" aria-label="Instagram" className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300">
+                        <Instagram size={16} strokeWidth={1.5} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/">
-                        <Youtube className='social-icon' />
+                    <a href="https://www.youtube.com/" aria-label="Youtube" className="w-9 h-9 rounded-full border border-white/20 bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition duration-300">
+                        <Youtube size={16} strokeWidth={1.5} />
                     </a>
                 </li>
             </ul>

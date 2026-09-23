@@ -106,29 +106,24 @@ const Contact = () => {
                     <ul className="space-y-5">
 
                         <li className="flex items-center gap-4 group contact-list">
-
-                            <div className="w-10 h-10 flex items-center justify-center rounded-full bg-linear-to-r from-yellow-400 to-yellow-200 transition duration-300 group-hover:scale-110 group-hover:rotate-6">
-                                <MapPin className="text-white w-5 h-5" />
+                            <div className="w-11 h-11 flex items-center justify-center rounded-full bg-light-yellow border border-stone-300 text-heading transition duration-300 group-hover:bg-primary group-hover:text-white group-hover:border-primary">
+                                <MapPin size={18} strokeWidth={1.5} />
                             </div>
-
-                            <p className="text-gray-700">Sector V, Salt Lake City, Kolkata, West Bengal 700091, India</p>
-
+                            <p className="text-gray-700 font-normal">Sector V, Salt Lake City, Kolkata, West Bengal 700091, India</p>
                         </li>
 
                         <li className="flex items-center gap-4 group contact-list">
-                            <div className="w-10 h-10 flex items-center justify-center rounded-full bg-linear-to-r from-green-500 to-green-300 transition duration-300 group-hover:scale-110 group-hover:-rotate-6">
-                                <Phone className="text-white w-5 h-5" />
+                            <div className="w-11 h-11 flex items-center justify-center rounded-full bg-light-yellow border border-stone-300 text-heading transition duration-300 group-hover:bg-primary group-hover:text-white group-hover:border-primary">
+                                <Phone size={18} strokeWidth={1.5} />
                             </div>
-                            <span className="text-gray-700">+91 33 2357 8000</span>
+                            <span className="text-gray-700 font-normal">+91 33 2357 8000</span>
                         </li>
 
                         <li className="flex items-center gap-4 group contact-list">
-                            <div className="w-10 h-10 flex items-center justify-center rounded-full bg-linear-to-r from-blue-500 to-blue-300 transition duration-300 group-hover:scale-110 group-hover:rotate-6">
-                                <Mail className="text-white w-5 h-5" />
+                            <div className="w-11 h-11 flex items-center justify-center rounded-full bg-light-yellow border border-stone-300 text-heading transition duration-300 group-hover:bg-primary group-hover:text-white group-hover:border-primary">
+                                <Mail size={18} strokeWidth={1.5} />
                             </div>
-
-                            <span className="text-gray-700">contact@aurastudio.design</span>
-
+                            <span className="text-gray-700 font-normal">contact@aurastudio.design</span>
                         </li>
 
                     </ul>

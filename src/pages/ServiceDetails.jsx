@@ -268,7 +268,7 @@ const ServiceDetails = () => {
                                         <Phone size={18} strokeWidth={1.5} />
                                     </div>
 
-                                    <p className="text-gray-700 text-sm">+91 33 2357 8000</p>
+                                    <p className="text-gray-700 text-sm">+91 12345 67890</p>
                                 </li>
                             </ul>
                         </div>

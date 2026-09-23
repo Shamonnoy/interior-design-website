@@ -371,7 +371,7 @@ const Services = () => {
                             <span className="bg-white p-3 rounded-sm shadow-2xl">
                                 <PhoneCall size={25} />
                             </span>
-                            +91 33 2357 8000
+                            +91 12345 67890
                         </div>
                     </div>
                 </div>

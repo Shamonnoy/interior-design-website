@@ -116,7 +116,7 @@ const Contact = () => {
                             <div className="w-11 h-11 flex items-center justify-center rounded-full bg-light-yellow border border-stone-300 text-heading transition duration-300 group-hover:bg-primary group-hover:text-white group-hover:border-primary">
                                 <Phone size={18} strokeWidth={1.5} />
                             </div>
-                            <span className="text-gray-700 font-normal">+91 33 2357 8000</span>
+                            <span className="text-gray-700 font-normal">+91 12345 67890</span>
                         </li>
 
                         <li className="flex items-center gap-4 group contact-list">

@@ -1,16 +1,58 @@
-# React + Vite
+# Aura Studio - Luxury Interior & Architectural Design Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application for an architectural and interior design studio based in Kolkata, West Bengal. Built with React, Vite, Tailwind CSS v4, and GSAP for smooth scroll-triggered animations.
 
-Currently, two official plugins are available:
+## Live Demo & Repository
+- **Repository:** [https://github.com/Shamonnoy/interior-design-website](https://github.com/Shamonnoy/interior-design-website)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Modern Brand Identity:** Editorial typography, gold/coffee accents, and dark navy luxury theme.
+- **Interactive Video Modal:** Custom backdrop-blurred modal for architectural project walkthroughs and showreels.
+- **Smooth GSAP Animations:** ScrollTrigger-driven reveal effects, staggered gallery presentations, and parallax elements.
+- **E-Commerce & Catalog:** Filterable shop catalog, product details with thumbnail zooming, and cart/wishlist management hooks.
+- **Portfolio & Case Studies:** Detailed project case studies, galleries, service breakdowns, and team profiles.
+- **Interactive Contact Form:** Responsive inquiry form with real-time toast feedback and Kolkata studio map integration.
 
-## React Compiler
+## Tech Stack
+- **Framework:** React 18 with Vite
+- **Styling:** Tailwind CSS v4
+- **Animations:** GSAP (GreenSock) & ScrollTrigger
+- **Sliders:** Swiper.js
+- **Icons:** Lucide React & Iconify
+- **Image Zoom:** React Medium Image Zoom & PhotoSwipe
+- **Notifications:** React Hot Toast
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/Shamonnoy/interior-design-website.git
+cd interior-design-website
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start development server:
+```bash
+npm run dev
+```
+
+4. Build for production:
+```bash
+npm run build
+```
+
+## Author
+- **Developer:** Shamonnoy ([@Shamonnoy](https://github.com/Shamonnoy))
+- **Email:** shamonnoyhalder@gmail.com
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
